@@ -1,0 +1,29 @@
+{
+  "name": "livepoll",
+  "version": "1.0.0",
+  "description": "livepoll",
+  "keywords": [
+    "live",
+    "poll",
+    "app",
+    "mern"
+  ],
+  "license": "ISC",
+  "author": "Anannya",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1",
+    "socket.io": "^4.8.3"
+  }
+}
